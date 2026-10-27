@@ -1,0 +1,34 @@
+# ==========================================
+# PYTHON BACKEND IGNORES
+# ==========================================
+backend/venv/
+backend/__pycache__/
+__pycache__/
+*.py[cod]
+*$py.class
+*.sqlite3
+
+# ==========================================
+# NODE.JS / REACT FRONTEND IGNORES
+# ==========================================
+frontend/node_modules/
+frontend/dist/
+frontend/.vite/
+.pnp
+.pnp.js
+
+# ==========================================
+# OS & ENVIRONMENT ARTIFACTS
+# ==========================================
+.DS_Store
+Thumbs.db
+.env
+.env.local
+
+# ==========================================
+# TEMPORARY & LOCK FILES
+# ==========================================
+# Prevents Microsoft Word temporary lock files (e.g. ~$OS Mini Project Report.docx)
+~$*.docx
+~$*.doc
+*.tmp
